@@ -179,7 +179,7 @@ header {
   .a-block.height-md {
     height: 400px; }
   .a-block:before {
-    background: #000;
+    background: #3a393936;
     position: absolute;
     content: "";
     z-index: 1;

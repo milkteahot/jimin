@@ -41,7 +41,9 @@ header {
     font-weight: 400;
     color: #fff !important; }
   header .navbar-collapse {
-    position: relative; }
+    position: relative; 
+    border-bottom-style: inset;
+  }
   header .navbar {
     padding-top: 0;
     padding-bottom: 0;
@@ -143,10 +145,10 @@ header {
   .top-bar .search-icon {
     text-align: right; }
 
-.navbar .container > div {
+.navbar .container1 > div {
   border-bottom: 1px solid #e6e6e6; }
   @media (max-width: 767.98px) {
-    .navbar .container > div {
+    .navbar .container1 > div {
       border-bottom: none; } }
 
 .category {
@@ -1418,7 +1420,7 @@ blockquote {
               transform-style: preserve-3d;
       -webkit-perspective: 1000px;
               perspective: 1000px;
-      margin-bottom: 2rem;
+      margin-bottom: 2.5rem;
     }
     
     .front,

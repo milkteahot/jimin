@@ -1,6 +1,6 @@
-# About Porto
+# 솔직한 글쓰기
 
-- 포르투에 대한 단어들을 플리핑 카드로 만들었다.
-- 2020.02.22
-- My Favorite things -> About Porto
+- 지민 작가님
+- 2020.10.12
+
 # jimin

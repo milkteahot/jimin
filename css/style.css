@@ -30,8 +30,8 @@ h5 {
 }
 
 .wrap {
-  max-width: 1250px;
-  margin: 0 auto;
+  /* max-width: 1250px; */
+  /* margin: 0 auto; */
   background: #fff;
   -webkit-box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.1);
@@ -41,7 +41,7 @@ header {
   position: relative;
   top: 0;
   left: 0;
-  width: 100%;
+  /* width: 100%; */
   z-index: 5;
   font-weight: 400;
   background: #fff !important;
@@ -1786,6 +1786,7 @@ h1 {
   width: 90%;
   margin: 0 auto;
   max-width: 80rem;
+  margin-top: 4rem;
 }
 
 .cols {
@@ -1996,7 +1997,7 @@ h1 {
   }
 }
 .search-input-container-tm {
-  padding-top: 29px;
+  /* padding-top: 29px; */
   margin: 1rem;
   width: 30vw;
   float: right;
@@ -2089,7 +2090,7 @@ tr:nth-child() {
 /* New Header */
 header {
   position: fixed;
-  width: 100vw;
+  width: 100%;
   top: 0;
   padding: 0;
   z-index: 80;
@@ -2133,20 +2134,61 @@ ul a {
 
 header h1 {
   display: inline-block;
-  color: #2e2e2e;
-  margin: 0;
-  font-size: 1rem;
-  font-weight: bold;
-  line-height: 1em;
-  letter-spacing: 0px;
-  text-transform: none;
-  font-size: 25px;
-  font-family: 'Nanum Myeongjo';
-  font-weight: 400;
-  font-style: normal;
-  line-height: 2.2em;
-  letter-spacing: 0.5px;
-  text-transform: capitalize;
-  text-align: right;
-  margin-right: 3vw;
+    color: #2e2e2e;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1em;
+    letter-spacing: 0px;
+    text-transform: none;
+    /* font-size: 25px; */
+    font-family: 'Nanum Myeongjo';
+    /* font-weight: 400; */
+    /* font-style: normal; */
+    /* line-height: 2.2em; */
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    text-align: right;
+    margin-right: 3vw;
+    color: grey;
+}
+
+h1 a span {
+  color: #da6969;
+}
+
+.title-name {
+  font-family: NanumPenScript;
+  font-weight: 800;
+  font-size: 48px;
+}
+
+.month-search-wrapper {
+  display: flex; 
+  justify-content:space-between;
+  align-items: center;
+}
+.month {
+  font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.text-line {
+  height: 30%;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  td li {
+    height: 64%;
+    top: 30%;
+  }
+  .month {
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+
+  .text-line {
+    height: 63%;
+  }
 }

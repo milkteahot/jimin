@@ -55,7 +55,6 @@ header h1 {
   font-family: "Nanum Myeongjo";
   font-weight: 400;
   font-style: normal;
-  line-height: 2.2em;
   letter-spacing: 0.5px;
   text-transform: capitalize;
   text-align: right;
@@ -154,8 +153,75 @@ span {
   opacity: 1;
 }
 
-.fas {
+#arrow {
   color: #de8c8c;
+}
+
+.sideNav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 7%;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sideNav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.openBtn {
+  transition: 0.3s;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #afadad;
+  position: fixed;
+  top: 6%;
+  right: 1%;
+  margin: 0.5rem auto;
+  color: #818181;
+}
+
+.sideNav a:hover,
+.openBtn:hover {
+  color: #f1f1f1;
+}
+
+.sideNav .closebtn {
+  position: absolute;
+  top: 7px;
+  right: 25px;
+  font-size: 2rem;
+  margin-left: 50px;
+}
+
+.barBtn {
+  z-index: 1000;
+  margin: auto 2rem;
+  border: none;
+  background: none;
+  color: #6f6a6a6b;
+  position: fixed;
+  left: 90vw;
+  cursor: pointer;
+}
+
+.barBtn:active,
+.barBtn:focus {
+  outline: none;
+}
+
+#barIcon {
+  font-size: 2rem;
 }
 
 /* Mobile */

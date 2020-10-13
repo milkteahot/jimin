@@ -21,9 +21,9 @@
         <nav>
           <div>
             <ul>
-              <li><a href="">Work</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Contact</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="#">About</a></li>
+              <!-- <li><a href="">Contact</a></li> -->
             </ul>
           </div>
         </nav>
@@ -31,7 +31,7 @@
       <div class="title">
         <h1>
           <a href="/">
-            <span class="title-span">30Days Creation</span>
+            <span class="title-span">Night of memories</span>
           </a>
         </h1>
       </div>
@@ -39,6 +39,19 @@
     <!-- main body -->
     <div class="container">
       <div class="img-wrapper">
+        <div id="mySideNav" class="sideNav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="./day01.html">Day1</a>
+          <a href="./day02.html">Day2</a>
+          <a href="#">Day3</a>
+        </div>
+        <span class="openBtn"
+          onclick="openNav()"
+          >&#9776;
+          <!-- <i id="barIcon" class="fas fa-bars"></i> -->
+        </span>
         <div
           class="backgroundImg"
           style="background-image: url('https://images.unsplash.com/photo-1464798429116-8e26f96b2e60?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjYzOTIxfQ&w=4800');"
@@ -46,48 +59,44 @@
       </div>
       <div class="nav-links">
         <div class="nav-previous">
-          <a href="day01.html">
-            <i class="fas fa-arrow-circle-left fa-2x"></i>
+          <a href="../index.html">
+            <i id="arrow" class="fas fa-arrow-circle-left fa-2x"></i>
           </a>
         </div>
         <div class="nav-next">
-          <a href="day03.html">
-            <i class="fas fa-arrow-circle-right fa-2x"></i>
+          <a href="./day02.html">
+            <i id="arrow" class="fas fa-arrow-circle-right fa-2x"></i>
           </a>
         </div>
       </div>
       <div class="word-container">
-        <h1>DAY 2:그러니 당신</h1>
+            <h1>DAY 2:그러니 당신</h1>
 
-        <strong>그러니 당신</strong><br />
-        <p class="b">
-          푸른 장미의 꽃말은 불가능과 기적
-          <br />
-          불가능을 말하는 꽃 한송이가 기적을 담는다.
-        </p>
-        <p class="b">
-            작은 꽃 한송이도 기적을 말한다.
+            <strong>그러니 당신</strong><br />
+            <p class="b">
+              푸른 장미의 꽃말은 불가능과 기적
+              <br />
+              불가능을 말하는 꽃 한송이가 기적을 담는다.
+            </p>
+            <p class="b">
+                작은 꽃 한송이도 기적을 말한다.
+                <br />
+                그러니 당신, 상심하지 말라.
+                <br />
+                당신은 푸른 장미, 그보다 더 큰 존재
+                <br />
+                그러니 당신은 기적을 살아가고 있는 중인지도 모른다.
+            </p>
             <br />
-            그러니 당신, 상심하지 말라.
-            <br />
-            당신은 푸른 장미, 그보다 더 큰 존재
-            <br />
-            그러니 당신은 기적을 살아가고 있는 중인지도 모른다.
-        </p>
-        <br />
-
       </div>
     </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySideNav").style.width = "150px";
+      }
+      function closeNav() {
+        document.getElementById("mySideNav").style.width = "0";
+      }
+    </script>
   </body>
-  <script>
-    function count(){
-      var h1 = document.querySelectorAll("h1").values;
-      // var cnt = h1.split(4,2);
-      console.log("h1", h1);
-      // console.log("cnt", cnt);
-
-    }
-
-    // count()
-  </script>
 </html>

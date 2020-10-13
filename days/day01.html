@@ -21,9 +21,9 @@
         <nav>
           <div>
             <ul>
-              <li><a href="">Work</a></li>
-              <li><a href="">About</a></li>
-              <li><a href="">Contact</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="#">About</a></li>
+              <!-- <li><a href="">Contact</a></li> -->
             </ul>
           </div>
         </nav>
@@ -31,7 +31,7 @@
       <div class="title">
         <h1>
           <a href="/">
-            <span class="title-span">30Days Creation</span>
+            <span class="title-span">Night of memories</span>
           </a>
         </h1>
       </div>
@@ -39,6 +39,19 @@
     <!-- main body -->
     <div class="container">
       <div class="img-wrapper">
+        <div id="mySideNav" class="sideNav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <a href="./day01.html">Day1</a>
+          <a href="./day02.html">Day2</a>
+          <a href="#">Day3</a>
+        </div>
+        <span class="openBtn"
+          onclick="openNav()"
+          >&#9776;
+          <!-- <i id="barIcon" class="fas fa-bars"></i> -->
+        </span>
         <div
           class="backgroundImg"
           style="background-image: url('https://images.unsplash.com/photo-1464798429116-8e26f96b2e60?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjYzOTIxfQ&w=4800');"
@@ -47,12 +60,12 @@
       <div class="nav-links">
         <div class="nav-previous">
           <a href="../index.html">
-            <i class="fas fa-arrow-circle-left fa-2x"></i>
+            <i id="arrow" class="fas fa-arrow-circle-left fa-2x"></i>
           </a>
         </div>
         <div class="nav-next">
           <a href="./day02.html">
-            <i class="fas fa-arrow-circle-right fa-2x"></i>
+            <i id="arrow" class="fas fa-arrow-circle-right fa-2x"></i>
           </a>
         </div>
       </div>
@@ -132,5 +145,13 @@
         <br />
       </div>
     </div>
+    <script>
+      function openNav() {
+        document.getElementById("mySideNav").style.width = "150px";
+      }
+      function closeNav() {
+        document.getElementById("mySideNav").style.width = "0";
+      }
+    </script>
   </body>
 </html>

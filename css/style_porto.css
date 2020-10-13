@@ -1545,7 +1545,7 @@ blockquote {
     }
     
     .front .inner span{
-      color: rgba(255,255,255,0.7);
+      color: rgb(255 255 255 / 89%);
       font-family: 'Montserrat', 'Nanum Pen Script';
       font-weight: 300;
     }

@@ -92,8 +92,8 @@ h1 {
 }
 
 .img-wrapper {
-  width: 60vw;
-  height: 60vw;
+  /* width: 100vw; */
+  height: 30vw;
 }
 
 .backgroundImg {

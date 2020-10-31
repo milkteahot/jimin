@@ -249,6 +249,10 @@ span {
   font-weight: 300;
 }
 
+.strongItalic {
+  font-style: italic;
+  font-weight: 500;
+}
 /* Mobile */
 @media screen and (max-width: 768px) {
   .img-wrapper {
